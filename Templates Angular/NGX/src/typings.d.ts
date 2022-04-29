@@ -12,4 +12,4 @@ interface NodeModule {
 
 declare var tinymce: any;
 
-declare var echarts: any;
+declare var echarts: typeof import("../node_modules/echarts/types/dist/echarts");
